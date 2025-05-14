@@ -18,3 +18,4 @@ router.put("/:id", authenticate, authorize(["Manager"]), updateQuestion);
 router.delete("/:id", authenticate, authorize(["Manager"]), deleteQuestion);
 
 module.exports = router;
+sadad
